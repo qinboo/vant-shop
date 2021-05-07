@@ -28,6 +28,7 @@ const routes = [
     component: Home,
     meta: {
       showTabbar: true,
+      active: 0
     },
   },
   {
@@ -35,6 +36,7 @@ const routes = [
     component: Topic,
     meta: {
       showTabbar: true,
+      active: 1
     },
   },
   {
@@ -42,6 +44,7 @@ const routes = [
     component: Category,
     meta: {
       showTabbar: true,
+      active: 2
     },
   },
   {
@@ -49,6 +52,7 @@ const routes = [
     component: Cart,
     meta: {
       showTabbar: true,
+      active: 3
     },
   },
   {
@@ -56,6 +60,7 @@ const routes = [
     component: User,
     meta: {
       showTabbar: true,
+      active: 4
     },
   },
   {

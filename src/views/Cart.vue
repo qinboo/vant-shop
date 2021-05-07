@@ -148,4 +148,7 @@ export default {
 .delete-button {
   height: 100%;
 }
+.van-submit-bar {
+  bottom: 1.333333rem;
+}
 </style>

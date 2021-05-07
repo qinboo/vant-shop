@@ -12,31 +12,29 @@
 
 <script>
 export default {
-  components: {},
-  data() {
-    return {}
-  },
   computed: {
     active: {
+          active: {
       get() {
         switch (this.$route.path) {
-          case '/home':
-            return 0
-          case '/topic':
-            return 1
-          case '/category':
-            return 2
-          case '/cart':
-            return 3
-          case '/user':
-            return 4
+          case "/home":
+            return 0;
+          case "/topic":
+            return 1;
+          case "/category":
+            return 2;
+          case "/cart":
+            return 3;
+          case "/user":
+            return 4;
           default:
-            break
+            break;
         }
       },
       set() {},
     },
+    },
   },
-}
+};
 </script>
 <style lang="less" scoped></style>
